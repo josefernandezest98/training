@@ -47,7 +47,7 @@ The second part of this section incorporates data plots:
 
 * Boxplots
 
-![https://raw.githubusercontent.com/josefernandezest98/training/blob/main/PySpark_Training/boxplot.png](https://raw.githubusercontent.com/josefernandezest98/training/main/PySpark_Training/boxplot.png)
+![https://raw.githubusercontent.com/josefernandezest98/training/blob/main/PySpark_Training/boxplpot.png](https://raw.githubusercontent.com/josefernandezest98/training/main/PySpark_Training/boxplpot.png)
 
 * Correlation matrix
 
