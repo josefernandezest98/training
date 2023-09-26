@@ -62,7 +62,7 @@ Luis Enrique wants to change teams from FC Barcelona to FC Bayern Munich, but wa
 
 ## 4. Deep Learning:
 
-This last module tries to integrate a the gradient descent algorithm with tensorFlow and Pandas. Gradient descent algorithm does not work for all functions. There are two specific requirements. A function has to be:
+This last module tries to integrate the gradient descent algorithm with tensorFlow and Pandas. Gradient descent algorithm does not work for all functions. There are two specific requirements. A function has to be:
 
 *  differentiable: a function is differentiable if it has a derivative for each point in its domain.
 *  convex: for two points $x_1, x_2$ the function is convex if for $\lambda \in \left[0,1\right]$ the points verify
