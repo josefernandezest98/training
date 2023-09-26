@@ -31,7 +31,7 @@ Brief introduction to Apache Spark and PySpark, Resilient Distributed Datasets (
 
 ## 2. Data Analytics 
 
-In this case, we download a public Kaggle dataset about the FIFA 17 players. We practice the main functions we have seen before. We continue a little with the idea of ​​dataset filtering:
+In this case, we download a public Kaggle dataset about the FIFA 17 players. We test the main functions we have seen before. We continue a little with the idea of ​​dataset filtering:
 
 * isNull, filter, groupBy, agg, sum, avg, pivot, to_date, Window, lag, lead, orderBy, udf, datediff, between, sort, desc
 
