@@ -37,33 +37,7 @@ In this case, we download a public Kaggle dataset about the FIFA 17 players. We 
 
 The second part of this section incorporates data plots:
 
-* Histograms
-
-![https://raw.githubusercontent.com/josefernandezest98/training/blob/main/PySpark_Training/hist.png](https://raw.githubusercontent.com/josefernandezest98/training/main/PySpark_Training/hist.png)
-
-* Pie chart
-
-![https://raw.githubusercontent.com/josefernandezest98/training/blob/main/PySpark_Training/pie.png](https://raw.githubusercontent.com/josefernandezest98/training/main/PySpark_Training/pie.png)
-
-* Boxplots
-
-![https://raw.githubusercontent.com/josefernandezest98/training/blob/main/PySpark_Training/boxplpot.png](https://raw.githubusercontent.com/josefernandezest98/training/main/PySpark_Training/boxplpot.png)
-
-* Correlation matrix
-
-![https://raw.githubusercontent.com/josefernandezest98/training/blob/main/PySpark_Training/corr.png](https://raw.githubusercontent.com/josefernandezest98/training/main/PySpark_Training/corr.png)
-
-* Distribution plot
-
-![https://raw.githubusercontent.com/josefernandezest98/training/blob/main/PySpark_Training/distribution.png](https://raw.githubusercontent.com/josefernandezest98/training/main/PySpark_Training/distribution.png)
-
-* Density plot
-
-![https://raw.githubusercontent.com/josefernandezest98/training/blob/main/PySpark_Training/density.png](https://raw.githubusercontent.com/josefernandezest98/training/main/PySpark_Training/density.png)
-
-* Pair plots
-
-![https://raw.githubusercontent.com/josefernandezest98/training/blob/main/PySpark_Training/pairs.png](https://raw.githubusercontent.com/josefernandezest98/training/main/PySpark_Training/pairs.png)
+* Histograms, pie chart, boxplots, correlation matrix, distribution plot, density plot, pair plots
 
 ## 3. Machine Learning
 
@@ -76,16 +50,7 @@ Neymar leaves FC Barcelona. Who is the most suitable football player to replace 
 * Filter the football players, who does not belong to FC Barcelona and are rated over 75.
 * Transform categorical columns into numerical columns.
 * PCA in order to reduce the number of columns. Before that, we should normalize and standardize the data.
-
-![https://raw.githubusercontent.com/josefernandezest98/training/blob/main/PySpark_Training/pca.png](https://raw.githubusercontent.com/josefernandezest98/training/main/PySpark_Training/pca.png)
-
 * Clustering with Kmeans, number of clusters with Silhouette score.
-
-![https://raw.githubusercontent.com/josefernandezest98/training/blob/main/PySpark_Training/sil.png](https://raw.githubusercontent.com/josefernandezest98/training/main/PySpark_Training/sil.png)
-
-We have decided Kmeans randomly, but we could have used any other clustering technique.
-
-![https://raw.githubusercontent.com/josefernandezest98/training/blob/main/PySpark_Training/clustering.png](https://raw.githubusercontent.com/josefernandezest98/training/main/PySpark_Training/clustering.png)
 
 ### Exercise 2:
 
@@ -93,10 +58,6 @@ Luis Enrique wants to change teams from FC Barcelona to FC Bayern Munich, but wa
 
 * Filter both teams, FC Barcelona and FC Bayern Munich.
 * Two-sample Kolmogorov-Smirnov test. First, with scipy.stats and then, with PySpark submodules.
-
-![https://raw.githubusercontent.com/josefernandezest98/training/blob/main/PySpark_Training/distributions.png](https://raw.githubusercontent.com/josefernandezest98/training/main/PySpark_Training/distributions.png)
-![https://raw.githubusercontent.com/josefernandezest98/training/blob/main/PySpark_Training/cums.png](https://raw.githubusercontent.com/josefernandezest98/training/main/PySpark_Training/cums.png)
-
 * Outliers detection in order to recommend which players should leave the team.
 
 ## 4. Deep Learning:
@@ -126,8 +87,6 @@ where:
 in GADA derivation shape:
 
 $$f\left(t_0,y_0,t,b_1,b_2\right) = b_1 e^{\left[ \left(\frac{\log\left(\frac{y_0}{b_1}\right)}{e^{-b_2 t_0}}\right)e^{-b_2 t} \right]}.$$
-
-![https://raw.githubusercontent.com/josefernandezest98/training/blob/main/PySpark_Training/gompertz.png](https://raw.githubusercontent.com/josefernandezest98/training/main/PySpark_Training/gompertz.png)
 
 ## 5. References
 
