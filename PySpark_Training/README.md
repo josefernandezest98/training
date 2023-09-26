@@ -19,7 +19,7 @@ The idea of ​​this notebook is to show a first approximation of PySpark. It 
 * pyspark.ml.functions.vector_to_array
 * from pyspark.ml.clustering.KMeans
 * pyspark.ml.evaluation.ClusteringEvaluator
-* from statsmodels.distributions.empirical_distribution.ECDF
+* statsmodels.distributions.empirical_distribution.ECDF
 * scipy.stats.ks_2samp
 * tensorflow
 
